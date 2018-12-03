@@ -2,7 +2,7 @@ package ir.taghizadeh.dagger2.di.module;
 
 import dagger.Module;
 import dagger.Provides;
-import ir.taghizadeh.dagger2.activities.TvShowsActivity;
+import ir.taghizadeh.dagger2.activities.tvShowsActivity.TvShowsActivity;
 import ir.taghizadeh.dagger2.di.scope.TvShowsActivityScope;
 
 @Module

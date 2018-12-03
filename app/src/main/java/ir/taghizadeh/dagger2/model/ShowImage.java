@@ -6,8 +6,8 @@ import com.google.gson.annotations.SerializedName;
 public class ShowImage {
     @SerializedName("medium")
     @Expose
-    private String medium;
+    public String medium;
     @SerializedName("original")
     @Expose
-    private String original;
+    public String original;
 }

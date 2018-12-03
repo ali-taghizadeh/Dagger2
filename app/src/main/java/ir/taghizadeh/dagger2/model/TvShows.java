@@ -8,23 +8,25 @@ import java.util.List;
 public class TvShows {
     @SerializedName("id")
     @Expose
-    private Integer id;
+    public Integer id;
     @SerializedName("name")
     @Expose
-    private String name;
+    public String name;
     @SerializedName("genres")
     @Expose
-    private List<String> genres = null;
+    public List<String> genres = null;
     @SerializedName("status")
     @Expose
-    private String status;
+    public String status;
     @SerializedName("rating")
     @Expose
-    private ShowRating rating;
+    public ShowRating rating;
     @SerializedName("image")
     @Expose
-    private ShowImage image;
+    public ShowImage image;
     @SerializedName("summary")
     @Expose
-    private String summary;
+    public String summary;
+
+
 }
