@@ -8,6 +8,5 @@ import ir.taghizadeh.dagger2.di.scope.TvShowsActivityScope;
 @TvShowsActivityScope
 @Component(modules = TvShowsActivityModule.class, dependencies = TvShowsApplicationComponent.class)
 public interface TvShowsActivityComponent {
-
     void inject(TvShowsActivity tvShowsActivity);
 }
