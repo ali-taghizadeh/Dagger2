@@ -6,5 +6,5 @@ import com.google.gson.annotations.SerializedName;
 public class ShowRating {
     @SerializedName("average")
     @Expose
-    private Double average;
+    public Double average;
 }
